@@ -1,5 +1,7 @@
 <h1>Listing articles</h1>
-
+<% cache('article') do %>
+  <%= render article %>
+<% end %>
 <table>
   <thead>
     <tr>
